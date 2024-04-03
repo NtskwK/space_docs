@@ -1,3 +1,87 @@
 site_name: Space Docs
+site_author: Natsukawa
+site_description: Private knowledge base
+
+copyright: Copyright &copy; 2023 Natsukawa, all rights reserved.
+
+repo_url: https://github.com/NtskwK/space_docs
+repo_name: NtskwK/space_docs
+
 theme:
   name: material
+  language: zh
+  font:
+    text: Noto Sans SC
+  icon:
+    logo: material/github
+    repo: fontawesome/brands/git-alt
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.tabs
+    - navigation.indexes
+    # - navigation.instant.progress
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+        
+markdown_extensions:
+  - toc:
+      permalink: "#"
+  - footnotes:
+  - tables:
+
+plugins:
+  - search:
+      lang: 
+        - en
+        - ru
+        - zh
+  - social
+  - tags
+  - git-revision-date-localized:
+      type: iso_date
+      enable_creation_date: true
+      enable_creation_date: true
+      fallback_to_build_date: true
+  - offline
+
+extra:
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/NtskwK
+    - icon: fontawesome/solid/envelope
+      link: mailto:natsukawa247@outlook.com
