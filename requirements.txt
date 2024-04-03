@@ -3,7 +3,6 @@ mkdocs-material==9.5.17
 mkdocs-material-extensions==1.3.1
 markdown-checklist==0.4.4
 jieba==0.42.1
-pillow==9.5.0
 cairosvg==2.7.1
 mkdocs-git-revision-date-localized-plugin==1.2.4
 mkdocs-material[imaging]==9.5.17
