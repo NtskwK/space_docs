@@ -23,3 +23,16 @@
 ## 夏宇是谁
 
 是一只屯屯鼠。
+
+
+## 鸣谢
+
+感谢为这个项目提供帮助的人，排名不分先后。
+
+- [HsiangNianian](https://github.com/HsiangNianian/HsiangNianian)
+
+以下是列出本项目引用素材的来源，排名不分先后。
+
+如有缺漏请联系我补充。
+
+- [Sukap](https://blog.sukap.cn/)
