@@ -11,7 +11,7 @@
 # 上一版本
 git reset HEAD^
 # 上两个版本
-git reset HEAD^
+git reset HEAD^^
 # 十个版本之前
 git reset --hard head~10
 # 指定版本
