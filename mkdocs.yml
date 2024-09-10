@@ -1,6 +1,7 @@
 site_name: Space Docs
 site_author: Natsukawa
 site_description: Private knowledge base
+site_url: https://space-docs.natsuu.top
 
 copyright: Copyright &copy; 2023 Natsukawa, all rights reserved.
 
@@ -10,6 +11,7 @@ repo_name: NtskwK/space_docs
 theme:
   name: material
   language: zh
+  # Automatic download from google fonts
   font:
     text: Noto Sans SC
   icon:
@@ -65,6 +67,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 plugins:
   - search:
