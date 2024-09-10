@@ -1,5 +1,7 @@
 # 版本管理
 
+[了解 Git 和 GitHub](https://roadmap.sh/git-github)
+
 ## 回滚版本
 
 可选参数：
