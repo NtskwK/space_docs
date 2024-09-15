@@ -1,6 +1,10 @@
 # 版本管理
 
+官方网址👉[https://git-scm.com](https://git-scm.com)
+
 [了解 Git 和 GitHub](https://roadmap.sh/git-github)
+
+[Git 和 GitHub 入门教程](https://www.bilibili.com/video/BV1s3411g7PS) by 康文昌
 
 ## 回滚版本
 
