@@ -1,5 +1,7 @@
 # 清理休眠文件
 
+## hiberfil.sys
+
 参考[Powercfg 命令行选项](https://learn.microsoft.com/zh-cn/windows-hardware/design/device-experiences/powercfg-command-line-options#option_hibernate) by Microsoft
 
 关闭休眠
