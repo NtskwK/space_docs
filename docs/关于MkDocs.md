@@ -10,8 +10,8 @@
 
 `教学文档`
 
-[少数派sspai](https://sspai.com/prime/story/mkdocs-primer)
+[少数派 sspai](https://sspai.com/prime/story/mkdocs-primer)
 
 ## markdown
 
-[关于markdown](文档书写语言/MarkDown.md)
+[关于 markdown](文档书写语言/MarkDown.md)
